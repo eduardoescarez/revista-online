@@ -1,0 +1,6 @@
+.container__content{
+    @include large{
+    display:                grid;
+    grid-template-columns:  80% 20%;
+    }
+}

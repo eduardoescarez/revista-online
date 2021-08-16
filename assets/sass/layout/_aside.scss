@@ -1,0 +1,35 @@
+.aside{
+    display: none;
+    @include large{
+    display: block;
+    padding: 15px;
+  
+    
+    }
+
+    &__tags{
+
+        ul{
+            padding: 0;
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+        }
+    
+        li{
+            background-color: $blue;
+            padding: 5px;
+            margin: 5px;
+            color: white;
+        }
+    }
+
+
+
+    
+    img{
+        width: 100%;
+    }
+
+}
+

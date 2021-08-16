@@ -1,0 +1,36 @@
+.menu__nav{
+    
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration:    none;
+        color:              black;
+        margin-right:       10px;
+    }
+
+    &--desktop{
+        display:        none;
+        @include large{
+        display:        inline;
+        }
+    }
+
+    &--input{
+        border-radius:30px;
+        border: 1px solid $blue;
+        font-weight: 700;
+        padding-left: 10px;
+        width: 90px;
+        @include large{
+            width: 200px;
+        }
+    }
+
+}
